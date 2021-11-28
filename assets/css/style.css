@@ -1,32 +1,3 @@
-/*
-Theme Name: Start sua carreira
-Theme URI: http://www.startsuacarreira.com.br
-Author: Kenzie Academy BR
-Author URI: https://kenzie.com.br;
-Description: Descrição do thema.
-Version: 1.0
-
---------------------------------------------
-ESTRUTURAÇÃO BASE
---------------------------------------------
-**** DECLARAÇÃO DE VARIÁVEIS
-**** ESTILOS GERAIS
-**** BODY
-**** HEADER
-**** FOOTER
-**** PÁGINA INICIAL
-**** EXTRAS
-**** @MEDIA
-
-
-fundo darkmode: #19232f
-fundo info sobre darkmode: #2d3846
-fundo footer darkmode: #131a23
-textos darkmode: #e4e4e4
-borda darkmode: #9fb1c7
-
-*/
-
 /* VARIAVEIS */
 
 /*GERAL*/
@@ -57,28 +28,11 @@ main {
   font-size: 16px;
 }
 
-.container {
-}
-
-.row {
-}
-
-.coluna {
-}
-
-.coluna-esquerda {
-}
-
-.coluna-direita {
-}
-
 .hidden {
   display: none;
 }
 
 /* BODY */
-body {
-}
 
 input:checked ~ main {
   background-color: #19232f;
@@ -122,18 +76,12 @@ main .row {
   display: flex;
   flex-flow: row wrap;
 }
-main .coluna {
-}
 
-main .coluna-esquerda {
-}
 main .coluna-direita {
   background-color: #fff;
   transition: all ease-in-out 0.4s;
 }
 
-.informacoesContatoPortfolio {
-}
 .informacoesContatoPortfolio_imagem {
   text-align: center;
 }
@@ -187,6 +135,21 @@ main .coluna-direita {
   transition: all ease-in-out 0.4s;
 }
 
+.lista-projetos {
+  display: flex;
+  text-align: center;
+}
+
+.container-projetos img {
+  width: 95%;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.titulo-projetos {
+  text-align: center;
+}
+
 section {
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -203,74 +166,20 @@ section p {
   line-height: 22px;
   transition: all ease-in-out 0.4s;
 }
-section ul {
-}
 section ul li {
   margin-bottom: 10px;
-}
-section ul li p {
-}
-section ul li a {
-}
-section ul li h3 {
 }
 section ul li strong {
   font-weight: 500;
   font-size: 14px;
 }
-
-.InformacoesExperienciaPortfolio {
-}
-
-.InformacoesExperienciaPortfolio_perfil {
-}
-
-.InformacoesExperienciaPortfolio_perfil h2 {
-}
 .InformacoesExperienciaPortfolio_perfil p {
   text-align: justify;
-}
-
-.InformacoesExperienciaPortfolio_habilidades {
-}
-
-.InformacoesExperienciaPortfolio_habilidades h2 {
-}
-.InformacoesExperienciaPortfolio_habilidades ul {
-}
-.InformacoesExperienciaPortfolio_habilidades ul li {
-}
-.InformacoesExperienciaPortfolio_habilidades ul li p {
-}
-
-.InformacoesExperienciaPortfolio_formacao {
-}
-
-.InformacoesExperienciaPortfolio_formacao h2 {
-}
-.InformacoesExperienciaPortfolio_formacao ul {
-}
-.InformacoesExperienciaPortfolio_formacao ul li {
-}
-.InformacoesExperienciaPortfolio_formacao ul li p {
 }
 
 .InformacoesExperienciaPortfolio_experiencia {
   margin-bottom: 0;
   border: none;
-}
-
-.InformacoesExperienciaPortfolio_experiencia h2 {
-}
-.InformacoesExperienciaPortfolio_experiencia ul {
-}
-.InformacoesExperienciaPortfolio_experiencia ul li {
-}
-.InformacoesExperienciaPortfolio_experiencia ul li h3 {
-}
-.InformacoesExperienciaPortfolio_experiencia ul li strong {
-}
-.InformacoesExperienciaPortfolio_experiencia ul li p {
 }
 
 /* FOOTER */
@@ -279,16 +188,12 @@ footer {
   padding: 30px;
   transition: all ease-in-out 0.4s;
 }
-.redesSociais {
-}
 .redesSociais_lista {
   text-align: center;
 }
 .redesSociais_lista_item {
   display: inline-block;
   margin: 0 4px;
-}
-.redesSociais_lista_item a {
 }
 .redesSociais_lista_item img {
   width: 100%;
