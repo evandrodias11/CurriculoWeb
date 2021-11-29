@@ -136,6 +136,8 @@ main .coluna-direita {
 }
 
 .lista-projetos {
+  margin-top: 5px;
+
   display: flex;
   text-align: center;
 }
@@ -143,7 +145,16 @@ main .coluna-direita {
 .container-projetos img {
   width: 95%;
   height: 150px;
+
+  margin-top: 5px;
   border-radius: 15px;
+}
+.container-projetos li {
+  transition: 500ms;
+}
+
+.container-projetos li:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .titulo-projetos {
